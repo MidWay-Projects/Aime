@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="aime.png">
+  <meta property="og:title" content="► • ◄| AIME">
+  <meta name="theme-color" content="#7d63ff">
+  <meta property="og:description" content="︻╦̵̵̿╤── Przetrenuj swoje umiejętności celowania i spróbuj zdobyć jak najwyższy wynik. Celuj do niebieskich kropek omijając czerwone. Uwaga rekord i wynik jest zapisywany za pomocą cache w plikach przeglądarki.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:image" content="https://aime.midway.ovh/aime.png">
+  <title>AIME - MIDWAY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu-shadow">
+    <div id="menu">
+      <button id="closeButton"><h2>Rozpocznij Grę</h2></button>
+      <br>
+      <button id="rulesOpen"><h2>Zasady</h2></button>
+      <div id="rules-shadow">
+        <div id="rules"><p>
+          Musisz klikać niebieskie kropki jak najszybciej gdyż jeśli na mapie będzie więcej niż 15 kropek gra się kończy.<br><br>Czerwone kropki to płapki jeśli w nie klikniesz przegrywasz, znikają po 5s.<br><br>⟨!⟩ Rekordy są zapisywane w cache ⟨!⟩
+          </p>
+          <button id="closeRules"><h2>Zamknij</h2></button>
+        </div>
+      </div>
+      <br>
+      <div id="highScore">Rekord: <span id="bestScore">----</span></div>
+    </div>
+  </div>
+
+  <div id="score">Punkty: <span id="points">0</span></div>
+  <div id="game"></div>
+  <footer><a href="/LICENSE"><h2>©Aime 2024</h2></a></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
