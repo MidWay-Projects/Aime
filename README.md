@@ -1,4 +1,4 @@
-<div align="center"><img src="aime.png"></div>
+<div align="center"><img src="https://resources.midway.ovh/own/aime.tiff"></div>
 <div align="center"><h1>AIME</h1></div>
 Przetrenuj swoje umiejętności celowania na tej stronie.
 Celuj do niebieskich kropek by zdobywać punkty które są następnie zapisywane w rekordzie i w cache.
